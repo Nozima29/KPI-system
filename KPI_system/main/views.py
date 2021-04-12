@@ -45,8 +45,8 @@ def index(request):
 class UserRegister(APIView):
     serializer_class = UserSerializer
 
-    def get(self, request):
-        
+    #def get(self, request):
+
 
 class CreateDepartment(APIView):
     serializer_class = DepartmentSerializer
